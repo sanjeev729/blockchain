@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "7e79e449-ec61-4dda-a449-626878047709",
+		"name": "Blockchain",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get chain",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost-endpoint}}/get_chain",
+					"host": [
+						"{{localhost-endpoint}}"
+					],
+					"path": [
+						"get_chain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mine block",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost-endpoint}}/mine_block",
+					"host": [
+						"{{localhost-endpoint}}"
+					],
+					"path": [
+						"mine_block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "is valid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost-endpoint}}/is_valid",
+					"host": [
+						"{{localhost-endpoint}}"
+					],
+					"path": [
+						"is_valid"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
